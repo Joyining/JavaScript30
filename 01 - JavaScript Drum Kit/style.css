@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.drum_set{
+    max-width:800px;
+    display: flex; 
+    margin: 100px auto;
+}
+.key{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    transition: all .07s;
+}
+.key kbd{
+    width: 60px;
+    display: block;
+}
+.key span{
+    width: 60px;
+    display: block;
+}
+.playing{
+    border: 2px solid yellow;
+    transform: scale(1.1);
+}
