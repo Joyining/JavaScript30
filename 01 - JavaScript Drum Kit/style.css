@@ -2,6 +2,20 @@
     padding: 0;
     margin: 0;
 }
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url("images/drum.jpg") 0 0 no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.note{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
 .drum_set{
     max-width:800px;
     display: flex; 
@@ -11,13 +25,15 @@
     width: 60px;
     height: 60px;
     text-align: center;
-    border: 2px solid black;
+    border: 2px solid white;
     margin: 10px;
     transition: all .07s;
+    color: white;
 }
 .key kbd{
     width: 60px;
     display: block;
+    font-size: 2rem;
 }
 .key span{
     width: 60px;
